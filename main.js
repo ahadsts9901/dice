@@ -1,3 +1,11 @@
+//audio function
+
+function audio(){
+
+    document.getElementById('audio').play()
+
+}
+
 //dice 1 function
 
 function dice1(event) {

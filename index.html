@@ -34,6 +34,9 @@
 </head>
 
 <body>
+
+    <audio src="./success sound.mp3" id="audio" preload="auto"></audio>
+
     <div class="green">
 
         <h2 class="header"><i class="bi bi-dice-5 headerDice"></i> Dice</h2>
@@ -47,7 +50,7 @@
                 2</button>
         </row>
         <row>
-            <button class="button both" type="button" onclick="diceAll(event)"><i class="bi bi-dice-6"></i> Roll
+            <button class="button both" type="button" onclick="diceAll(event); audio()"><i class="bi bi-dice-6"></i> Roll
                 Both</button>
         </row>
 
